@@ -8,7 +8,7 @@
 	import { parse, format, startOfDay, endOfDay } from 'date-fns';
 	import Bottle from '$lib/svgs/Bottle.svelte';
 
-	import 'chartjs-adapter-date-fns';
+	import 'chartjs-adapter-date-fns/index.js';
 
 	let chart;
 	let myChart;
