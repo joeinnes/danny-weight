@@ -2,13 +2,13 @@
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { directus } from '$lib/db';
-	import Line from "svelte-chartjs/src/Line.svelte"
-	import Chart from 'chart.js/auto/auto.js';
+	import { Chart, registerables } from 'chart.js';
 	import { enGB } from 'date-fns/locale/index.js';
 	import { parse, format, startOfDay, endOfDay } from 'date-fns';
 	import Bottle from '$lib/svgs/Bottle.svelte';
 
-	import 'chartjs-adapter-date-fns/index.js';
+	Chart.register(...registerables);
+	import 'chartjs-adapter-date-fns';
 
 	let chart;
 	let myChart;
