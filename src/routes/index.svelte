@@ -3,14 +3,13 @@
 	import { goto } from '$app/navigation';
 	import { directus } from '$lib/db';
 	import Line from "svelte-chartjs/src/Line.svelte"
-	import { Chart, registerables } from 'chart.js';
-	import {enGB} from 'date-fns/locale';
-	import {parse, format, startOfDay, endOfDay} from 'date-fns';
+	import Chart from 'chart.js/auto';
+	import { enGB } from 'date-fns/locale/index.js';
+	import { parse, format, startOfDay, endOfDay } from 'date-fns';
 	import Bottle from '$lib/svgs/Bottle.svelte';
 
 	import 'chartjs-adapter-date-fns';
 
-	Chart.register(...registerables)
 	let chart;
 	let myChart;
 
@@ -126,7 +125,7 @@
 	}
 </script>
 
-<h1 style="margin-bottom: 0"><div style="height: 1em; width: 1em; display: inline-block; margin-right: 1rem;"><svelte:component this={Bottle} /></div>Danny Weight</h1>
+<h1 style="margin-bottom: 0; margin-left: 2ch;"><div style="height: 1em; width: 1em; display: inline-block; margin-right: 1rem;"><svelte:component this={Bottle} /></div>Danny Weight</h1>
 <article>
 <h3 style="margin-bottom: 0">New Feed</h3>
 <form on:submit|preventDefault={addNewFeed} style="margin-bottom: 0">
