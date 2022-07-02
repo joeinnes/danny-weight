@@ -3,7 +3,7 @@
 	import { goto } from '$app/navigation';
 	import { directus } from '$lib/db';
 	import Line from "svelte-chartjs/src/Line.svelte"
-	import Chart from 'chart.js/auto';
+	import Chart from 'chart.js/auto/auto.js';
 	import { enGB } from 'date-fns/locale/index.js';
 	import { parse, format, startOfDay, endOfDay } from 'date-fns';
 	import Bottle from '$lib/svgs/Bottle.svelte';
