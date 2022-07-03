@@ -1,10 +1,10 @@
 <script lang="ts">
-	import '@picocss/pico/css/pico.min.css';
+	import '../app.css';
 </script>
 
 <svelte:head>
-<title>Danny Updates</title>
+	<title>Danny Updates</title>
 </svelte:head>
-<main style="padding-top: 2rem;">
-<slot />
+<main class="container mx-auto">
+	<slot />
 </main>
