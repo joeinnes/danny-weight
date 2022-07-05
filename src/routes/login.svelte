@@ -15,6 +15,9 @@
 			alert('Could not log in');
 		}
 	};
+
+	const updateValue = (e: { currentTarget: HTMLInputElement }) =>
+		(user[e.currentTarget.name as keyof typeof user] = e?.currentTarget?.value);
 </script>
 
 <div class="min-h-screen flex flex-col justify-center">
@@ -32,6 +35,7 @@
 						id="email"
 						required
 						bind:value={user.email}
+						on:change={updateValue}
 						class="input input-bordered input-lg w-full"
 					/>
 				</div>
@@ -45,6 +49,7 @@
 						id="password"
 						required
 						bind:value={user.password}
+						on:change={updateValue}
 						class="input input-bordered input-lg w-full"
 					/>
 				</div>

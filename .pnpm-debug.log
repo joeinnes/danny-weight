@@ -1,0 +1,1250 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "kit-template-default",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./jsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+        "lint": "prettier --check --plugin-search-dir=. .",
+        "format": "prettier --write --plugin-search-dir=. ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
+        "prettier": "^2.6.2",
+        "prettier-plugin-svelte": "^2.7.0",
+        "svelte-check": "^2.7.1",
+        "svelte-preprocess": "^4.10.7",
+        "tailwindcss": "^3.1.4",
+        "typescript": "^4.7.2"
+      },
+      "type": "module",
+      "dependencies": {
+        "@directus/sdk": "^9.13.0",
+        "@tailwindcss/typography": "^0.5.2",
+        "chart.js": "^3.8.0",
+        "chartjs-adapter-date-fns": "^2.0.0",
+        "daisyui": "^2.18.0",
+        "date-fns": "^2.28.0",
+        "svelte": "^3.48.0"
+      }
+    },
+    "prefix": "/Users/joe/WebDev/danny-weight"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/joe/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/joe/WebDev/danny-weight/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/joe/WebDev/danny-weight",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "7.5.0",
+    "latestVersion": "7.5.0"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.7.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.6.2"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/autoprefixer/10.4.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autoprefixer",
+      "rawSpec": "^10.4.7"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/autoprefixer/10.4.7",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.7"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "11 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "size": 3977924,
+    "status": "started"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/autoprefixer/10.4.7",
+    "size": 45819,
+    "status": "started"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chartjs-adapter-date-fns/2.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "chartjs-adapter-date-fns",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chartjs-adapter-date-fns/2.0.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chart.js/3.8.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "chart.js",
+      "rawSpec": "^3.8.0"
+    }
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chart.js/3.8.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tailwindcss/3.1.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tailwindcss",
+      "rawSpec": "^3.1.4"
+    }
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tailwindcss/3.1.4",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "19 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chartjs-adapter-date-fns/2.0.0",
+    "size": 54258,
+    "status": "started"
+  },
+  "20 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chart.js/3.8.0",
+    "size": 292151,
+    "status": "started"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/autoprefixer/10.4.7",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chartjs-adapter-date-fns/2.0.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "23 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "size": 22985,
+    "status": "started"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chart.js/3.8.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/daisyui/2.18.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "daisyui",
+      "rawSpec": "^2.18.0"
+    }
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/daisyui/2.18.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "28 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/daisyui/2.18.0",
+    "size": 121867,
+    "status": "started"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/daisyui/2.18.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.7.1",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.7.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^4.7.2"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss/8.4.14",
+    "wanted": {
+      "dependentId": ".",
+      "name": "postcss",
+      "rawSpec": "^8.4.14"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/postcss/8.4.14",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "35 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.7.0"
+    }
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "size": 49476,
+    "status": "started"
+  },
+  "38 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/postcss/8.4.14",
+    "size": 43986,
+    "status": "started"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "size": 11695542,
+    "status": "started"
+  },
+  "41 debug pnpm:fetching-progress": {
+    "downloaded": 16384,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "42 debug pnpm:fetching-progress": {
+    "downloaded": 32768,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "43 debug pnpm:fetching-progress": {
+    "downloaded": 49152,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "44 debug pnpm:fetching-progress": {
+    "downloaded": 65536,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "45 debug pnpm:fetching-progress": {
+    "downloaded": 81920,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "46 debug pnpm:fetching-progress": {
+    "downloaded": 98304,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "47 debug pnpm:fetching-progress": {
+    "downloaded": 114688,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "48 debug pnpm:fetching-progress": {
+    "downloaded": 131072,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "49 debug pnpm:fetching-progress": {
+    "downloaded": 147456,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "50 debug pnpm:fetching-progress": {
+    "downloaded": 163840,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "51 debug pnpm:fetching-progress": {
+    "downloaded": 180224,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "52 debug pnpm:fetching-progress": {
+    "downloaded": 196608,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "53 debug pnpm:fetching-progress": {
+    "downloaded": 212992,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "54 debug pnpm:fetching-progress": {
+    "downloaded": 229376,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "55 debug pnpm:fetching-progress": {
+    "downloaded": 245760,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "56 debug pnpm:fetching-progress": {
+    "downloaded": 256306,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "57 debug pnpm:fetching-progress": {
+    "downloaded": 272690,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "58 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.8.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.7.1"
+    }
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "60 debug pnpm:fetching-progress": {
+    "downloaded": 284978,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "61 debug pnpm:fetching-progress": {
+    "downloaded": 289074,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "62 debug pnpm:fetching-progress": {
+    "downloaded": 305458,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "63 debug pnpm:fetching-progress": {
+    "downloaded": 317746,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "downloaded": 334130,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "65 debug pnpm:fetching-progress": {
+    "downloaded": 350514,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "downloaded": 366898,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "67 debug pnpm:fetching-progress": {
+    "downloaded": 383282,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "downloaded": 399666,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "69 debug pnpm:fetching-progress": {
+    "downloaded": 416050,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "70 debug pnpm:fetching-progress": {
+    "downloaded": 432434,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "71 debug pnpm:fetching-progress": {
+    "downloaded": 448818,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "72 debug pnpm:fetching-progress": {
+    "downloaded": 465202,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "downloaded": 481586,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "downloaded": 497970,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "downloaded": 506162,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "76 debug pnpm:fetching-progress": {
+    "downloaded": 522546,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "77 debug pnpm:fetching-progress": {
+    "downloaded": 538930,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "78 debug pnpm:fetching-progress": {
+    "downloaded": 555314,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "79 debug pnpm:fetching-progress": {
+    "downloaded": 571698,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "80 debug pnpm:fetching-progress": {
+    "downloaded": 588082,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "downloaded": 604466,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "82 debug pnpm:fetching-progress": {
+    "downloaded": 620850,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "downloaded": 637234,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "84 debug pnpm:fetching-progress": {
+    "downloaded": 653618,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "85 debug pnpm:fetching-progress": {
+    "downloaded": 670002,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "86 debug pnpm:fetching-progress": {
+    "downloaded": 686386,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "87 debug pnpm:fetching-progress": {
+    "downloaded": 702770,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "88 debug pnpm:fetching-progress": {
+    "downloaded": 719154,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "89 debug pnpm:fetching-progress": {
+    "downloaded": 735538,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "90 debug pnpm:fetching-progress": {
+    "downloaded": 751922,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "downloaded": 768306,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "92 debug pnpm:fetching-progress": {
+    "downloaded": 784690,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "93 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tailwindcss/3.1.4",
+    "size": 670046,
+    "status": "started"
+  },
+  "94 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "size": 688310,
+    "status": "started"
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/postcss/8.4.14",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "96 debug pnpm:fetching-progress": {
+    "downloaded": 801074,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "97 debug pnpm:fetching-progress": {
+    "downloaded": 817458,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "98 debug pnpm:fetching-progress": {
+    "downloaded": 833842,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "99 debug pnpm:fetching-progress": {
+    "downloaded": 850226,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "100 debug pnpm:fetching-progress": {
+    "downloaded": 866610,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "101 debug pnpm:fetching-progress": {
+    "downloaded": 882994,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "102 debug pnpm:fetching-progress": {
+    "downloaded": 899378,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "103 debug pnpm:fetching-progress": {
+    "downloaded": 915762,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "104 debug pnpm:fetching-progress": {
+    "downloaded": 932146,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "105 debug pnpm:fetching-progress": {
+    "downloaded": 948530,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "106 debug pnpm:fetching-progress": {
+    "downloaded": 964914,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "107 debug pnpm:fetching-progress": {
+    "downloaded": 981298,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "108 debug pnpm:fetching-progress": {
+    "downloaded": 997682,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "109 debug pnpm:fetching-progress": {
+    "downloaded": 1014066,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "110 debug pnpm:fetching-progress": {
+    "downloaded": 1030450,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "111 debug pnpm:fetching-progress": {
+    "downloaded": 1046834,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "112 debug pnpm:fetching-progress": {
+    "downloaded": 1063218,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "113 debug pnpm:fetching-progress": {
+    "downloaded": 1079602,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/date-fns/2.28.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "date-fns",
+      "rawSpec": "^2.28.0"
+    }
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/date-fns/2.28.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "116 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.48.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.48.0"
+    }
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "118 debug pnpm:fetching-progress": {
+    "downloaded": 1095986,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "downloaded": 1112370,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "120 debug pnpm:fetching-progress": {
+    "downloaded": 1128754,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "121 debug pnpm:fetching-progress": {
+    "downloaded": 1145138,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "122 debug pnpm:fetching-progress": {
+    "downloaded": 1161522,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "123 debug pnpm:fetching-progress": {
+    "downloaded": 1177906,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "downloaded": 1194290,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "125 debug pnpm:fetching-progress": {
+    "downloaded": 1210674,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "126 debug pnpm:fetching-progress": {
+    "downloaded": 1227058,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "127 debug pnpm:fetching-progress": {
+    "downloaded": 1243442,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "128 debug pnpm:fetching-progress": {
+    "downloaded": 1259826,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "129 debug pnpm:fetching-progress": {
+    "downloaded": 1276210,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "130 debug pnpm:fetching-progress": {
+    "downloaded": 1292594,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "131 debug pnpm:fetching-progress": {
+    "downloaded": 1308978,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "132 debug pnpm:fetching-progress": {
+    "downloaded": 1325362,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "133 debug pnpm:fetching-progress": {
+    "downloaded": 1341746,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "134 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/date-fns/2.28.0",
+    "size": 712592,
+    "status": "started"
+  },
+  "135 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "size": 1435893,
+    "status": "started"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.8.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "137 debug pnpm:fetching-progress": {
+    "downloaded": 1358130,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "138 debug pnpm:fetching-progress": {
+    "downloaded": 1374514,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "139 debug pnpm:fetching-progress": {
+    "downloaded": 1390898,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "140 debug pnpm:fetching-progress": {
+    "downloaded": 1394994,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "141 debug pnpm:fetching-progress": {
+    "downloaded": 1411378,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "142 debug pnpm:fetching-progress": {
+    "downloaded": 1427762,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "143 debug pnpm:fetching-progress": {
+    "downloaded": 1444146,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "144 debug pnpm:fetching-progress": {
+    "downloaded": 1460530,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "145 debug pnpm:fetching-progress": {
+    "downloaded": 1476914,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "146 debug pnpm:fetching-progress": {
+    "downloaded": 1493298,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "147 debug pnpm:fetching-progress": {
+    "downloaded": 1509682,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "148 debug pnpm:fetching-progress": {
+    "downloaded": 1526066,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "149 debug pnpm:fetching-progress": {
+    "downloaded": 1542450,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "150 debug pnpm:fetching-progress": {
+    "downloaded": 1558834,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "151 debug pnpm:fetching-progress": {
+    "downloaded": 1575218,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "152 debug pnpm:fetching-progress": {
+    "downloaded": 1591602,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tailwindcss/3.1.4",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "154 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.53",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.53",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "156 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@directus/sdk/9.13.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@directus/sdk",
+      "rawSpec": "^9.13.0"
+    }
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@directus/sdk/9.13.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "resolved"
+  },
+  "158 debug pnpm:fetching-progress": {
+    "downloaded": 1607986,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "159 debug pnpm:fetching-progress": {
+    "downloaded": 1624370,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "160 debug pnpm:fetching-progress": {
+    "downloaded": 1640754,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "161 debug pnpm:fetching-progress": {
+    "downloaded": 1657138,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "162 debug pnpm:fetching-progress": {
+    "downloaded": 1673522,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "163 debug pnpm:fetching-progress": {
+    "downloaded": 1689906,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "164 debug pnpm:fetching-progress": {
+    "downloaded": 1706290,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "165 debug pnpm:fetching-progress": {
+    "downloaded": 1722674,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "166 debug pnpm:fetching-progress": {
+    "downloaded": 1739058,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "167 debug pnpm:fetching-progress": {
+    "downloaded": 1755442,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "168 debug pnpm:fetching-progress": {
+    "downloaded": 1759538,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "169 debug pnpm:fetching-progress": {
+    "downloaded": 1775922,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "170 debug pnpm:fetching-progress": {
+    "downloaded": 1792306,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "171 debug pnpm:fetching-progress": {
+    "downloaded": 1808690,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "172 debug pnpm:fetching-progress": {
+    "downloaded": 1825074,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "173 debug pnpm:fetching-progress": {
+    "downloaded": 1841458,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "174 debug pnpm:fetching-progress": {
+    "downloaded": 1857842,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "175 debug pnpm:fetching-progress": {
+    "downloaded": 1874226,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "176 debug pnpm:fetching-progress": {
+    "downloaded": 1890610,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "177 debug pnpm:fetching-progress": {
+    "downloaded": 1906994,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "178 debug pnpm:fetching-progress": {
+    "downloaded": 1923378,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "179 debug pnpm:fetching-progress": {
+    "downloaded": 1939762,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "180 debug pnpm:fetching-progress": {
+    "downloaded": 1956146,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "181 debug pnpm:fetching-progress": {
+    "downloaded": 1972530,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "182 debug pnpm:fetching-progress": {
+    "downloaded": 1988914,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "183 debug pnpm:fetching-progress": {
+    "downloaded": 2005298,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "184 debug pnpm:fetching-progress": {
+    "downloaded": 2021682,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "185 debug pnpm:fetching-progress": {
+    "downloaded": 2038066,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "186 debug pnpm:fetching-progress": {
+    "downloaded": 2054450,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "downloaded": 2070834,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "188 debug pnpm:fetching-progress": {
+    "downloaded": 2087218,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "189 debug pnpm:fetching-progress": {
+    "downloaded": 2103602,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "190 debug pnpm:fetching-progress": {
+    "downloaded": 2119986,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "191 debug pnpm:fetching-progress": {
+    "downloaded": 2136370,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "192 debug pnpm:fetching-progress": {
+    "downloaded": 2152754,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "193 debug pnpm:fetching-progress": {
+    "downloaded": 2169138,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "194 debug pnpm:fetching-progress": {
+    "downloaded": 2185522,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "195 debug pnpm:fetching-progress": {
+    "downloaded": 2201906,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "196 debug pnpm:fetching-progress": {
+    "downloaded": 2218290,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "197 debug pnpm:fetching-progress": {
+    "downloaded": 2234674,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "198 debug pnpm:fetching-progress": {
+    "downloaded": 2251058,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "199 debug pnpm:fetching-progress": {
+    "downloaded": 2267442,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "200 debug pnpm:fetching-progress": {
+    "downloaded": 2283826,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "201 debug pnpm:fetching-progress": {
+    "downloaded": 2300210,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "202 debug pnpm:fetching-progress": {
+    "downloaded": 2316594,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "203 debug pnpm:fetching-progress": {
+    "downloaded": 2332978,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "204 debug pnpm:fetching-progress": {
+    "downloaded": 2349362,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "205 debug pnpm:fetching-progress": {
+    "downloaded": 2365746,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "206 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.53",
+    "size": 2473,
+    "status": "started"
+  },
+  "207 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.53",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "208 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@directus/sdk/9.13.0",
+    "size": 65796,
+    "status": "started"
+  },
+  "209 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@directus/sdk/9.13.0",
+    "requester": "/Users/joe/WebDev/danny-weight",
+    "status": "fetched"
+  },
+  "210 debug pnpm:fetching-progress": {
+    "downloaded": 2369842,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "211 debug pnpm:fetching-progress": {
+    "downloaded": 2386226,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "212 debug pnpm:fetching-progress": {
+    "downloaded": 2402610,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "213 debug pnpm:fetching-progress": {
+    "downloaded": 2418994,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "214 debug pnpm:fetching-progress": {
+    "downloaded": 2435378,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "215 debug pnpm:fetching-progress": {
+    "downloaded": 2451762,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "216 debug pnpm:fetching-progress": {
+    "downloaded": 2468146,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "217 debug pnpm:fetching-progress": {
+    "downloaded": 2484530,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "218 debug pnpm:fetching-progress": {
+    "downloaded": 2500914,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "219 debug pnpm:fetching-progress": {
+    "downloaded": 2517298,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "220 debug pnpm:fetching-progress": {
+    "downloaded": 2533682,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "221 debug pnpm:fetching-progress": {
+    "downloaded": 2550066,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "222 debug pnpm:fetching-progress": {
+    "downloaded": 2566450,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "223 debug pnpm:fetching-progress": {
+    "downloaded": 2578738,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "224 debug pnpm:fetching-progress": {
+    "downloaded": 2595122,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "225 debug pnpm:fetching-progress": {
+    "downloaded": 2611506,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "226 debug pnpm:fetching-progress": {
+    "downloaded": 2627890,
+    "packageId": "registry.npmjs.org/typescript/4.7.4",
+    "status": "in_progress"
+  },
+  "227 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"7.5.0\"})",
+    "prefix": "/Users/joe/WebDev/danny-weight"
+  },
+  "228 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.357",
+    "wanted": {
+      "node": ">=16.7"
+    },
+    "current": {
+      "node": "v14.16.0",
+      "pnpm": "7.5.0"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"7.5.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.357: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"7.5.0\"})\n    at checkEngine (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43094:16)\n    at checkPackage (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43677:74)\n    at packageIsInstallable (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43647:20)\n    at resolveAndFetch (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:93248:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async resolveDependency (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:122293:23)\n    at async resolveDependenciesOfDependency (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:122132:39)\n    at async Promise.all (index 1)\n    at async resolveDependencies (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:122061:29)"
+    }
+  }
+}

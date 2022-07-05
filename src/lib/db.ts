@@ -1,3 +1,7 @@
 import { Directus } from '@directus/sdk';
+import type { Weight } from './stores/stores';
 
-export const directus = new Directus('https://api.innes.hu');
+type DannyCollections = {
+  feeds: Weight;
+};
+export const directus = new Directus<DannyCollections>('https://api.innes.hu');
