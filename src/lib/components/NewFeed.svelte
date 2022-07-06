@@ -11,6 +11,7 @@
 		end_weight: 0,
 		estimated: false
 	};
+
 	let activeTab: 'weighed' | 'unweighed' = 'weighed';
 
 	const getLatestFeed = async () => {
@@ -19,7 +20,6 @@
 			sort: ['-date_created']
 		});
 		return data;
-		return null;
 	};
 
 	async function addNewFeed() {
@@ -43,6 +43,12 @@
 			sort: ['date_created']
 		});
 		$feeds = data as Weight[];
+		newFeed = {
+			start_weight: 0,
+			end_weight: 0,
+			estimated: false
+		};
+		closeModal();
 	}
 </script>
 

@@ -18,7 +18,7 @@
 </script>
 
 {#if $feeds?.length}
-	<div class="stats my-0">
+	<div class="grid grid-cols-2 xl:grid-cols-7 auto-cols-fr xl:divide-x items-center my-0">
 		<div class="stat">
 			<div class="stat-title">Latest Weight</div>
 			<div class="stat-value">
@@ -81,6 +81,16 @@
 				)}g
 			</div>
 			<div class="stat-desc">Average weekly weight change</div>
+		</div>
+
+		<div class="stat">
+			<div class="stat-title">Minimum Feed Volume</div>
+			<div class="stat-value">
+				{Math.round(
+					(150 * ($feeds[$feeds.length - 1]?.end_weight / 1000)) / ($feeds.length / (rangeH / 24))
+				)}g
+			</div>
+			<div class="stat-desc">Based on 150ml/kg/day</div>
 		</div>
 	</div>
 {/if}

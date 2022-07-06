@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { feeds, type Weight } from '$lib/stores/stores';
-	import { parse, startOfDay, endOfDay, sub, format } from 'date-fns';
+	import { parse, sub, format } from 'date-fns';
 	import { directus } from '$lib/db';
 
 	let filters = {
@@ -10,35 +10,35 @@
 
 	const setFilters = async (time: string) => {
 		const now = new Date();
-		filters.end_date = format(new Date(), 'yyyy-MM-dd');
+		filters.end_date = format(new Date(), "yyyy-MM-dd'T'HH:mm");
 		switch (time) {
 			case '1d':
-				filters.start_date = format(sub(now, { hours: 24 }), 'yyyy-MM-dd');
+				filters.start_date = format(sub(now, { hours: 24 }), "yyyy-MM-dd'T'HH:mm");
 				break;
 			case '3d':
-				filters.start_date = format(sub(now, { hours: 72 }), 'yyyy-MM-dd');
+				filters.start_date = format(sub(now, { hours: 72 }), "yyyy-MM-dd'T'HH:mm");
 				break;
 			case '7d':
-				filters.start_date = format(sub(now, { weeks: 1 }), 'yyyy-MM-dd');
+				filters.start_date = format(sub(now, { weeks: 1 }), "yyyy-MM-dd'T'HH:mm");
 				break;
 			case '14d':
-				filters.start_date = format(sub(now, { weeks: 2 }), 'yyyy-MM-dd');
+				filters.start_date = format(sub(now, { weeks: 2 }), "yyyy-MM-dd'T'HH:mm");
 				break;
 			case '1mo':
-				filters.start_date = format(sub(now, { months: 1 }), 'yyyy-MM-dd');
+				filters.start_date = format(sub(now, { months: 1 }), "yyyy-MM-dd'T'HH:mm");
 				break;
 			default:
 				filters = {
-					start_date: new Date(0).toISOString(),
-					end_date: new Date().toISOString()
+					start_date: format(new Date(2022, 5, 20, 16, 24), "yyyy-MM-dd'T'HH:mm"),
+					end_date: format(now, "yyyy-MM-dd'T'HH:mm")
 				};
 		}
 		updateFilters();
 	};
 
 	const updateFilters = async () => {
-		const start_date = startOfDay(parse(filters.start_date, 'yyyy-MM-dd', 0));
-		const end_date = endOfDay(parse(filters.end_date, 'yyyy-MM-dd', 0));
+		const start_date = parse(filters.start_date, "yyyy-MM-dd'T'HH:mm", 0);
+		const end_date = parse(filters.end_date, "yyyy-MM-dd'T'HH:mm", 0);
 		const { data } = await directus.items('feeds').readByQuery({
 			limit: -1,
 			sort: ['date_created'],
@@ -57,7 +57,7 @@
 		<div class="form-control w-full">
 			<label for="start-date" class="label"><span class="label-text">Start date</span> </label>
 			<input
-				type="date"
+				type="datetime-local"
 				id="start-date"
 				name="start-date"
 				bind:value={filters.start_date}
@@ -66,7 +66,7 @@
 		</div>
 		<div class="form-control w-full">
 			<label for="end-date" class="label"><span class="label-text">End date</span> </label><input
-				type="date"
+				type="datetime-local"
 				id="end-date"
 				name="end-date"
 				bind:value={filters.end_date}
