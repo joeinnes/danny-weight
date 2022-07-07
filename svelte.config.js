@@ -3,12 +3,7 @@ import preprocess from 'svelte-preprocess';
 
 const config = {
 	kit: {
-		adapter: adapter(),
-		vite: {
-			ssr: {
-				noExternal: ['chart.js', 'chartjs-plugin-trendline']
-			}
-		}
+		adapter: adapter()
 	},
 	preprocess: [
 		preprocess({
